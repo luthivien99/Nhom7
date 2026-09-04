@@ -4,15 +4,15 @@
 Ví dụ:
 // Đây là chú thích một dòng
 int a = 10; // Khai báo biến a
+```
 ```cpp
-
 Ví dụ 2:
 /*
   int a = 10; 
    Đây là chú thích
    gồm nhiều dòng
 */
-
+```
 
 
 2. Nhập và xuất
@@ -26,17 +26,13 @@ Ví dụ:
 using namespace std;
 
 int main(){
-    int n, a, b, c;
-    cout << "Nhap gia tri cho n : ";
-    cin >> n;
-    cout << "Gia tri n vua nhap la : " << n << endl;
+    int a, b, c;
     cout << "Nhap gia tri cho a, b, c : ";
     cin >> a >> b >> c;
     cout << "Gia tri a, b, c : " << a << " " << b << " " << c << endl;
     return 0;
 }
-
-
+```
 - cout là một đối tượng giúp thể hiện thị nội dung như : số nguyên, số thực, giá trị của biến, đoạn text ra màn hình. 
 - Để sử dụng đối tượng này cần khai báo thư viện "iostream" và sử dụng namespace std
 Ví dụ:
@@ -50,7 +46,7 @@ int main(){
     
     return 0;
 }
-```cpp
+```
 
 3. Ép kiểu
 - Toán tử ép kiểu trong C++ là 1 toán tử đặc biệt mà làm một kiểu dữ liệu này biến đổi thành kiểu dữ liệu khác.
@@ -73,4 +69,4 @@ int main(){
      
      return 0;
   }
-```cpp
+```
