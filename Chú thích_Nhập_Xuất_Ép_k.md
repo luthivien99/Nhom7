@@ -18,8 +18,9 @@ Ví dụ 2:
 2. Nhập và xuất
 - cin là đối tượng giúp nhập dữ liệu từ bàn phím thay vì khởi tạo thủ công, cin nằm trong thư viện "iostream" và namespace std.
 - cin đi kèm với toán tử nhập >>
-Ví dụ:
+
 ```cpp
+Ví dụ:
 #include <iostream>
 #include <iomanip>
 
@@ -35,8 +36,9 @@ int main(){
 ```
 - cout là một đối tượng giúp thể hiện thị nội dung như : số nguyên, số thực, giá trị của biến, đoạn text ra màn hình. 
 - Để sử dụng đối tượng này cần khai báo thư viện "iostream" và sử dụng namespace std
+
+```cpp
 Ví dụ:
-```cpp  
 #include <iostream>
 using namespace std;
 
@@ -51,8 +53,9 @@ int main(){
 3. Ép kiểu
 - Toán tử ép kiểu trong C++ là 1 toán tử đặc biệt mà làm một kiểu dữ liệu này biến đổi thành kiểu dữ liệu khác.
   Toán tử ép kiểu là một toán tử 1 ngôi và có cùng độ ưu tiên như bất kỳ toán tử một ngôi nào khác trong C++.
-  Ví dụ:
+
 ```cpp
+Ví dụ:
   #include <iostream>
   using namespace std;
    
