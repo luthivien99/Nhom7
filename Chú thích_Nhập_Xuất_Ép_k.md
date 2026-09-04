@@ -13,7 +13,7 @@ Ví dụ 2:
    gồm nhiều dòng
 */
 
-```cpp
+
 
 2. Nhập và xuất
 - cin là đối tượng giúp nhập dữ liệu từ bàn phím thay vì khởi tạo thủ công, cin nằm trong thư viện "iostream" và namespace std.
@@ -35,7 +35,7 @@ int main(){
     cout << "Gia tri a, b, c : " << a << " " << b << " " << c << endl;
     return 0;
 }
-```cpp
+
 
 - cout là một đối tượng giúp thể hiện thị nội dung như : số nguyên, số thực, giá trị của biến, đoạn text ra màn hình. 
 - Để sử dụng đối tượng này cần khai báo thư viện "iostream" và sử dụng namespace std
