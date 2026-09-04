@@ -27,10 +27,10 @@ Ví dụ:
 using namespace std;
 
 int main(){
-    int a, b, c;
-    cout << "Nhap gia tri cho a, b, c : ";
-    cin >> a >> b >> c;
-    cout << "Gia tri a, b, c : " << a << " " << b << " " << c << endl;
+    int a, b;
+    cout << "Nhap gia tri cho a, b : ";
+    cin >> a >> b;
+    cout << "Gia tri a, b: " << a << " " << b << " " <<endl;
     return 0;
 }
 ```
@@ -43,7 +43,7 @@ Ví dụ:
 using namespace std;
 
 int main(){
-    int n = 282828;
+    int n = 2;
     cout << "Gia tri cua bien n : " << n << endl;
     
     return 0;
@@ -61,7 +61,7 @@ Ví dụ:
    
   int main(){
      float a = 5.5;
-     float b = 9.02;
+     float b = 9.0;
      int c ;
    
      c = (int) a;
