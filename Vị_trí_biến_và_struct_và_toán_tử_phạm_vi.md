@@ -1,5 +1,6 @@
-# 4. Vị trí khai báo biến
-## 4.1. Nội dung
+4. Vị trí khai báo biến
+
+4.1. Nội dung
 Trong C truyền thống, biến thường được khai báo ở đầu một khối lệnh, trước các câu lệnh thực hiện.
 ```cpp
 int main() {
@@ -21,14 +22,16 @@ int main() {
     cout << b;
 }
 ```
-## 4.2. Ý nghĩa
+
+4.2. Ý nghĩa
 Việc này giúp:
    - Khai báo biến gần nơi sử dụng.
    - Code dễ đọc và dễ quản lý hơn.
    - Hạn chế phạm vi tồn tại của biến.
    - Giảm việc khai báo nhiều biến không cần thiết ở đầu chương trình.
 
-# 5. Kiểu cấu trúc -struct 
+5. Kiểu cấu trúc -struct
+
 struct hay kiểu cấu trúc cho phép chúng ta gom nhiều dữ liệu có liên quan với nhau thành một kiểu dữ liệu mới.
 Ví dụ cần lưu thông tin sinh viên gồm: Tên, Tuổi, Điểm
 Ta có:
@@ -62,7 +65,8 @@ int main() {
 }
 ```
 
-# 6. Toán tử phạm vi 
+6. Toán tử phạm vi
+
 :: được gọi là toán tử phạm vi hay scope resolution operator.
 Nó được dùng để xác định một tên thuộc phạm vi nào.
 Ví dụ về biến toàn cục và biến cục bộ:
