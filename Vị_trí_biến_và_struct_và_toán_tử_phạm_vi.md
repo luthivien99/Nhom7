@@ -1,5 +1,5 @@
 4. Vị trí khai báo biến
-5. 
+
 4.1. Nội dung
 Trong C truyền thống, biến thường được khai báo ở đầu một khối lệnh, trước các câu lệnh thực hiện.
 ```cpp
