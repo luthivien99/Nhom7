@@ -9,7 +9,7 @@
          int a = 10;
          int &b = a;
          b=20;
-     
+   
      => a = 20, b = 20.
 2. Chồng toán tử
    - Chồng toán tử (Operator Overloading) là việc định nghĩa lại cách hoạt động của các toán tư có sẵn khi sử dụng với các dữ liệu do người lập trình định nghĩa như class, struct.
