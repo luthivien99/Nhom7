@@ -5,7 +5,7 @@ Ví dụ:
 // Đây là chú thích một dòng
 int a = 10; // Khai báo biến a
 ```cpp
-```cpp
+
 Ví dụ 2:
 /*
   int a = 10; 
@@ -37,8 +37,8 @@ int main(){
 }
 ```cpp
 
-- cout là một đối tượng giúp bạn có thể hiện thị nội dung như : số nguyên, số thực, giá trị của biến, đoạn text ra màn hình. 
-- Để sử dụng đối tượng này bạn cần khai báo thư viện "iostream" và sử dụng namespace std
+- cout là một đối tượng giúp thể hiện thị nội dung như : số nguyên, số thực, giá trị của biến, đoạn text ra màn hình. 
+- Để sử dụng đối tượng này cần khai báo thư viện "iostream" và sử dụng namespace std
 Ví dụ:
 ```cpp  
 #include <iostream>
