@@ -1,6 +1,7 @@
 1. Chú thích
 - Chú thích không được coi là mà nguồn và sẽ được loại bỏ bởi trình biên dịch khi biên dịch mã nguồn . 
-Ví dụ: 
+Ví dụ:
+```cpp
 // Đây là chú thích một dòng
 int a = 10; // Khai báo biến a
 
@@ -11,7 +12,7 @@ Ví dụ 2:
    gồm nhiều dòng
 */
 
-
+```cpp
 2. Nhập và xuất
 - cin là đối tượng giúp nhập dữ liệu từ bàn phím thay vì khởi tạo thủ công, cin nằm trong thư viện "iostream" và namespace std.
 - cin đi kèm với toán tử nhập >>
